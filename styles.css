@@ -64,7 +64,8 @@
 .main {
     flex-direction: column;
     flex: 2 2 auto;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 2rem;
     background-color: #eee;
 }
 
@@ -123,4 +124,24 @@
 
 .form-container form {
     width: 55vw;
+}
+
+.form-container input:user-invalid {
+    border-color: #ee2222;
+}
+
+.form-container input:focus {
+    border-color: #2222ee;
+    box-shadow: 1px 1px 1px 1px #aaa;
+}
+
+.submit {
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    margin: 1rem 0rem 2em 0rem;
+    background-color: #019054;
+    border: 2px solid #014d2d;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
 }
