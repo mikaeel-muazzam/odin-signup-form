@@ -62,11 +62,10 @@
 }
 
 .main {
-    padding: 3rem;
     flex-direction: column;
     flex: 2 2 auto;
     justify-content: space-around;
-    background-color: #ddd;
+    background-color: #eee;
 }
 
 .main,
@@ -74,8 +73,54 @@
     height: 100vh;
 }
 
+.description,
+.form-container,
+.footer {
+    padding: 1rem 1rem 1rem 3rem;
+}
+
+.main p {
+    max-width: 55ch;
+}
+
 .description p {
     font-size: 1.5rem;
     font-weight: bolder;
     margin-top: 2rem;
+}
+
+.form-container {
+    background-color: #fff;
+    box-shadow: 3px 3px 6px #aaa;
+}
+
+.form-container li {
+    list-style-type: none;
+    padding: 1.5rem 3rem 1.5rem 0rem;
+}
+
+.form-container ul {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0px;
+    margin: 0px;
+}
+
+.form-container label {
+    display: block;
+    color: #444;
+    font-weight: bold;
+}
+
+.form-container input {
+    width: 16.6vw;
+    height: 2rem;
+    border: 2px solid #E5E7EB;
+    border-radius: 4px;
+    font: inherit;
+    padding: 4px;
+}
+
+.form-container form {
+    width: 55vw;
 }
