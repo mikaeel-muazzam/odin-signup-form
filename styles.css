@@ -66,9 +66,16 @@
     flex-direction: column;
     flex: 2 2 auto;
     justify-content: space-around;
+    background-color: #ddd;
 }
 
 .main,
 .sidebar {
     height: 100vh;
+}
+
+.description p {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-top: 2rem;
 }
